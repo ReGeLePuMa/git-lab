@@ -9,7 +9,7 @@ int main()
     cout << "Please enter a number" << endl;
     cin >> n;
 
-    for (int i = 0; i <= 5; i++)
+    for (int i = 0; i < 5; i++)
         n += 1;
 
     cout << "Your number + 5 is: " << n << endl;
